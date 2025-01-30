@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    background-image: url(img/big-bang.png);
+    /*define a imagem de fundo*/
+    background-position: center center;
+    /* posiciona a imagem no centro tanto horizontal quanto verticalmente. */
+    background-repeat: no-repeat;
+    /* impede que a imagem se repita (se você não quiser que a imagem se repita). */
+    background-size: cover;
+    /*  faz a imagem cobrir todo o elemento, mantendo sua proporção (isso pode cortar partes da imagem, se necessário). */
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section#login {
+    margin-top: 150px;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/astronauta-3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+form.login>h1 {
+    width: 400px;
+    margin: -60px 0px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+div.login-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 10px 0px;
+    color: white;
+}
+
+input#login-email {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    text-indent: 16px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    font-size: 16px;
+    color: #fff;
+}
+
+input#login-email::placeholder {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input#login-email:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Fundo transparente no foco */
+    border-color: #007bff;
+    /* Borda azul para indicar o foco */
+    outline: none;
+    /* Remove o contorno padrão do navegador */
+    color: #fff;
+    /* Cor do texto ao focar */
+}
+
+
+label#label-email {
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+div.login-senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input#login-senha {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    text-indent: 16px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    font-size: 16px;
+    color: #fff;
+}
+
+input#login-senha::placeholder {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input#login-senha:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Fundo transparente no foco */
+    border-color: #007bff;
+    /* Borda azul para indicar o foco */
+    outline: none;
+    /* Remove o contorno padrão do navegador */
+    color: #fff;
+    /* Cor do texto ao focar */
+}
+
+label#label-senha {
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.Button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+#button-login {
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(6, 49, 105);
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#button-login:hover {
+    cursor: pointer;
+    background-color: rgb(6, 102, 192);
+    transition: 0.4s;
+}
+
+.footer-login {
+    background-color: rgb(3, 26, 53);
+    margin-top: 10px;
+    padding: 8px;
+    line-height: 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+
+.footer-login p>a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-login p>a:hover {
+    text-decoration: underline;
+    color: rgb(19, 150, 238);
+}
+
+.footer-login p>button {
+    background-color: rgb(4, 46, 97);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    letter-spacing: 1px;
+    text-indent: 5px;
+}
+
+.footer-login p>button:hover {
+    cursor: pointer;
+    background-color: rgb(11, 87, 180);
+    color: white;
+    transition: 0.4s;
+}
+
+section#registro {
+    display: none;
+    margin-top: 150px;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/astronauta-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form.registro>h1 {
+    width: 400px;
+    margin: -60px 0px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+div.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 10px 0px;
+    color: white;
+}
+
+input#email-registro {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    text-indent: 16px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    font-size: 16px;
+    color: #fff;
+}
+
+input#email-registro::placeholder {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input#email-registro:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Fundo transparente no foco */
+    border-color: #007bff;
+    /* Borda azul para indicar o foco */
+    outline: none;
+    /* Remove o contorno padrão do navegador */
+    color: #fff;
+    /* Cor do texto ao focar */
+}
+
+div.senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input#senha-registro {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    text-indent: 16px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    font-size: 16px;
+    color: #fff;
+}
+
+input#senha-registro::placeholder {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input#senha-registro:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Fundo transparente no foco */
+    border-color: #007bff;
+    /* Borda azul para indicar o foco */
+    outline: none;
+    /* Remove o contorno padrão do navegador */
+    color: #fff;
+    /* Cor do texto ao focar */
+}
+
+.Button-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+#button-registro {
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(6, 49, 105);
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#button-registro:hover {
+    cursor: pointer;
+    background-color: rgb(6, 102, 192);
+    transition: 0.4s;
+}
+
+.footer-registro {
+    background-color: rgb(3, 26, 53);
+    margin-top: 10px;
+    padding: 8px;
+    line-height: 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+
+.footer-registro p>button {
+    background-color: rgb(4, 46, 97);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    letter-spacing: 1px;
+    text-indent: 5px;
+}
+
+.footer-registro p>button:hover {
+    cursor: pointer;
+    background-color: rgb(11, 87, 180);
+    color: white;
+    transition: 0.4s;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(2, 26, 54);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
