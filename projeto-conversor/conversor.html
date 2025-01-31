@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/icon-dinheiro.png" type="image/x-icon">
+    <link rel="stylesheet" href="conversor.css">
+    <title>Conversor</title>
+</head>
+
+<body>
+    <header>
+        <h1>Conversor Real para Dólar</h1>
+    </header>
+        <main>
+            <div id="dinheiro-real">
+                <input type="number" id="real">
+                <picture>
+                    <img src="imagem/moeda-real.png" alt="simbolo da moeda real" id="imgReal">
+                </picture>
+            </div>
+            <div id="button">
+                <button onclick="converter()">Converter</button>
+            </div>
+            <div id="dinheiro-dolar">
+                <input type="number" id="convertido" disabled>
+                <picture>
+                    <img src="imagem/dolar-png.png" alt="sombolo da moeda dolar" id="imgDolar">
+                </picture>
+            </div>
+        </main>
+    <footer>
+        <p>&copy; Criado por <a href="https://github.com/AlanMeneses001" target="_blank">Alan Meneses</a></p>
+    </footer>
+
+
+    <script src="conversor.js"></script>
+</body>
+
+</html>
