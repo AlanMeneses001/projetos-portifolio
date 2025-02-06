@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #09122C;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+h1 {
+    background-color: grey;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    margin: 3px 0px 20px 5px;
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.363);
+}
+
+
+button#start {
+    width: 62px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#pause {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#stop {
+    width: 62px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+span > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
