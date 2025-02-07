@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --cor1: #27445D;
+    --cor2: #497D74;
+    --cor3: #71BBB2;
+    --cor4: #EFE9D5;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: var(--cor4);
+}
