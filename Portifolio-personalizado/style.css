@@ -64,7 +64,7 @@ h2.titulo span {
     color: var(--AzulFacebook);
 }
 
-button:hover {
+button:hover, form .btn-enviar input:hover {
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 0px 0px 10px var(--AzulFacebook);
@@ -329,4 +329,71 @@ section.portfolio .flex .projeto p {
     background-color: rgba(0, 0, 0, 0.418);
     color: white;
     opacity: 100%;
+}
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input {
+    height: 30px;
+    width: 100%;
+    background-color: var(--CinzaClaro);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--CinzaGrafite);
+    font-size: 16px;
+}
+
+form input::placeholder {
+    color: var(--CinzaGrafite);
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: var(--CinzaClaro);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--CinzaGrafite);
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none; /*Serve para que o usuario não redirecione o textarea*/
+    height: 100px;
+}
+
+form input, form textarea::placeholder {
+    color: var(--CinzaGrafite);   
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: var(--AzulFacebook);
+    color: var(--Preto);
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 35px;
+
 }
