@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 10, 26);
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+header {
+    background-color: rgb(3, 3, 27);
+    padding: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.568);
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.timeline {
+    background-color: rgb(10, 10, 26);
+    padding: 10px;
+}
+
+.publicacao {
+    color: white;
+    padding: 5px 0px 0px 5px;
+    box-shadow: 1px 2px 6px 0px black;
+    transition: .2s;
+}
+
+.publicacao:hover {
+    cursor: pointer;
+    background-color: rgba(39, 39, 54, 0.349);
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.075);
+}
+
+.publicacao > p {
+    margin: 5px 5px 10px 6px;
+}
+
+i {
+    padding: 10px 0px;
+}
+
+.perfil {
+    padding: 5px 3px;
+}
+
+.time {
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
