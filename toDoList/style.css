@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Typical Device Breakpoints
+------------------------------
+Celular: até 600px
+Tablet: de 769px até 992px
+Desktop: 993px até 1500px
+TV: acima de 1500px
+------------------------------
+*/
+
+body {
+    background-color: rgba(223, 222, 222, 0.87);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.199);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+}
+
+input {
+    width: 68%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-indent: 5px;
+}
+
+button {
+    padding: 8px 10px;
+    font-size: 16px;
+    background-color: #3d9148;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.199);
+    color: black;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.884);
+    scale: 1.1;
+    transition: all 0.3s;
+}
+
+li span {
+    flex: 1;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 16px;
+    max-width: 180px;
+}
+
+.deleteButton{
+    margin-left: 5px;
+    background-color: red;
+}
+
+.editButton {
+    background-color: rgba(0, 102, 255, 0.897);
+}
+
+@media (min-width: 769px) {
+    .container {
+        max-width: 600px;
+    }
+    h1 {
+        font-size: 2.7em;
+    }
+    input {
+        width: 76%;
+        height: 35px;
+        font-size: 1.5em;
+    }
+    button {
+        height: 55px;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+    li span {
+        font-size: 1.5em;
+        text-indent: 15px;
+    }
+    .editButton {
+        margin-left: 290px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 650px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    input {
+        width: 77%;
+        height: 35px;
+        font-size: 1.4em;
+    }
+}
