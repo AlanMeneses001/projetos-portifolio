@@ -1,5 +1,4 @@
 // Variáveis e seleção de elementos
-const apiKey = "53a41b4297c5fbdfaf569f8bbfec707f";
 
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search");
@@ -15,7 +14,7 @@ const weatherContainer = document.querySelector("#weather-data");
 
 // Funções
 const getWeatherData = async(city) => {
-    const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
+    const apiWeatherURL = `http://localhost:3000/weather?city=${city}`;
 
     const res = await fetch(apiWeatherURL);
     const data = await res.json();
