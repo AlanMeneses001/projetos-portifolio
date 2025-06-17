@@ -6,9 +6,8 @@ Aplicação simples em JavaScript que consome a [API OpenWeatherMap](https://ope
 [https://alanmeneses001.github.io/projetos-portifolio/webClima/](https://alanmeneses001.github.io/projetos-portifolio/webClima/)
 
 <img src="img/img-desktop.png" alt="Web Clima" width="800"> 
-<div> 
-  <img src="img/img-clima.jpg" alt="Web Clima" width="200"> <img src="img/img-app-Clima.jpg" alt="Web Clima" width="200">
-</div>
+
+
 ---
 
 ## 🚀 Funcionalidades
@@ -33,3 +32,12 @@ Aplicação simples em JavaScript que consome a [API OpenWeatherMap](https://ope
 - Ícones: [Font Awesome](https://fontawesome.com/)
 
 ---
+
+## 🛠️ Melhorias futuras
+
+- [ ] Adicionar tratamento de erro para cidades inválidas
+- [ ] Modo escuro
+- [ ] Armazenar cidade pesquisada com localStorage
+
+---
+Feito por [Alan Meneses](https://github.com/AlanMeneses001)
