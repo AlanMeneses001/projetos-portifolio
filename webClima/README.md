@@ -2,6 +2,9 @@
 
 Aplicação simples em JavaScript que consome a [API OpenWeatherMap](https://openweathermap.org/) para exibir informações climáticas de qualquer cidade do mundo, como temperatura, umidade, vento e condições do tempo em tempo real.
 
+🚀 **Projeto online:**  
+[https://alanmeneses001.github.io/projetos-portifolio/webClima/](https://alanmeneses001.github.io/projetos-portifolio/webClima/)
+
 
 ---
 
