@@ -14,7 +14,7 @@ const weatherContainer = document.querySelector("#weather-data");
 
 // Funções
 const getWeatherData = async(city) => {
-    const apiWeatherURL = `http://localhost:3000/weather?city=${city}`;
+    const apiWeatherURL = `https://SEU-NOME-DO-SERVICO.onrender.com/weather?city=${city}`;
 
     const res = await fetch(apiWeatherURL);
     const data = await res.json();
