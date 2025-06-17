@@ -5,8 +5,7 @@ Aplicação simples em JavaScript que consome a [API OpenWeatherMap](https://ope
 🚀 **Projeto online:**  
 [https://alanmeneses001.github.io/projetos-portifolio/webClima/](https://alanmeneses001.github.io/projetos-portifolio/webClima/)
 
-![Preview do Web Clima](img/img-app-Clima.jpg)
-
+<img src="img/img-app-Clima.jpg" alt="Web Clima" width="600">
 
 ---
 
