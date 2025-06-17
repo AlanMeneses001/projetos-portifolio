@@ -12,6 +12,10 @@ Este repositório reúne meus projetos de front-end, todos desenvolvidos com HTM
 - Responsivo e interativo com `async/await`.
 - Tecnologias: HTML, CSS, JavaScript, API, Font Awesome.
 
+  🚀 **Projeto online:**  
+[https://alanmeneses001.github.io/projetos-portifolio/webClima/](https://alanmeneses001.github.io/projetos-portifolio/webClima/)
+
+---
 ### ⏰ Relógio Digital
 - Relógio em tempo real com estilização moderna.
 - Demonstra uso de `setInterval()` e manipulação de DOM.
