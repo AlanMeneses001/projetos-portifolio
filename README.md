@@ -13,7 +13,7 @@ Este repositório reúne meus projetos de front-end, todos desenvolvidos com HTM
 - Tecnologias: HTML, CSS, JavaScript, API, Font Awesome.
 
   🚀 **Projeto online:**  
-[https://alanmeneses001.github.io/projetos-portifolio/webClima/](https://alanmeneses001.github.io/projetos-portifolio/webClima/)
+[https://alanmeneses001.github.io/projetos-portifolio/webClima/](https://alanmeneses001.github.io/projetos-estaticos/webClima/)
 
 ---
 ### ⏰ Relógio Digital
